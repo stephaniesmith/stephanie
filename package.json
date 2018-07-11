@@ -7,8 +7,15 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "build:prod": "npm run build && npm run copy",
+    "build": "webpack --mode production",
+    "copy": "rm -rf ../SnapShot-Server/public && cp -R ./docs ../SnapShot-Server/public",
+    "start": "webpack-dev-server --hot --mode development",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "jest": "jest",
+    "test": "npm run jest",
+    "test:watch": "npm run jest -- --watch"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stephaniesmith/stephanie.git"
