@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/app/App';
 import 'normalize.css';
 
-const component = 'Hello World';
-
 ReactDOM.render(
-  component,
+  <App/>,
   document.getElementById('root')
 );
