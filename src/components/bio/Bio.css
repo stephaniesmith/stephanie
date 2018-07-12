@@ -23,7 +23,7 @@
   }
 
   button:hover {
-    background: red;
+    background: rgb(96, 95, 95);
     color: white;
   }
 }

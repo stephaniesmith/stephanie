@@ -8,7 +8,7 @@
   .wrapper {
     width: 100vw;
     height: 200vh;
-    transition: transform 2s ease;
+    transition: transform 4s cubic-bezier(.55,.01,.52,1.04);
   }
 
   .bio {
