@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700');
+
+:local(.app) {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+  .wrapper {
+    width: 100vw;
+    height: 200vh;
+  }
+
+  .bio {
+    transform: translate(0, -50%);
+  }
+}
