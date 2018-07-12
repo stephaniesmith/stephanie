@@ -1,29 +1,26 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import styles from './Home.css';
 
 export default class Home extends Component {
 
-  state = {
-    active: ''
+  static propTypes = {
+    onToggleClass: PropTypes.func.isRequired
   };
 
-  bioTransition = () => {
-    this.setState({
-      active: 'bio'
-    });
+  handleClass = className => {
+    event.preventDefault();
+    this.props.onToggleClass(className);
   };
 
   render() {
-    const { active } = this.state;
-
-    const bioClass = active ? `${styles.home} ${active}` : styles.home;
 
     return (
-      <div className={bioClass}>
+      <div className={styles.home}>
         <h1>Hello, I'm Stephanie.</h1>
         <a href="https://github.com/stephaniesmith">GitHub</a>
         <a href="https://www.linkedin.com/in/stephanie-lauren-smith/">LinkedIn</a>
-        <button onClick={this.bioTransition}>bio</button>
+        <button onClick={() => this.handleClass('bio')}>bio</button>
       </div>
     );
   }
