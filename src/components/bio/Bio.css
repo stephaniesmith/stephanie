@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700');
+
+:local(.bio) {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(51, 135, 208);
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+
+  p {
+    color: white;
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    padding-top: 50vh;
+    font-weight: 300;
+  }
+}
