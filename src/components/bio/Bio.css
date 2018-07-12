@@ -6,11 +6,24 @@
   text-align: center;
   overflow: hidden;
 
-  p, button {
+  p, h1, button {
     color: black;
     font-family: Muli, Helvetica, Arial, sans-serif;
-    padding-top: 30vh;
     font-weight: 300;
+  }
+
+  img {
+    margin-top: 2rem;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(13px 13px 20px grey);
+  }
+
+  h1 {
+    font-weight: 700;
+    padding-top: 1rem;
   }
 
   p {
