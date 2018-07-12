@@ -8,6 +8,7 @@
   .wrapper {
     width: 100vw;
     height: 200vh;
+    transition: transform 2s ease;
   }
 
   .bio {
