@@ -9,8 +9,12 @@
   p, button {
     color: black;
     font-family: Muli, Helvetica, Arial, sans-serif;
-    padding-top: 50vh;
+    padding-top: 30vh;
     font-weight: 300;
+  }
+
+  p {
+    margin: 0 3rem;
   }
 
   button {
