@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import portrait from '../../media/portrait.png';
 import styles from './Home.css';
 
 export default class Home extends Component {
