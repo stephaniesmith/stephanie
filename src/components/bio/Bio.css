@@ -51,18 +51,9 @@
   }
 
   @media (min-width: 360px) {
-    h1 {
-      font-size: 2em;
-    }
-
     p {
       margin: 0 2.75rem;
-      font-size: 1.1em;
-
-    }
-
-    a {
-      font-size: 1.1em;
+      font-size: 1em;
     }
   }
 
