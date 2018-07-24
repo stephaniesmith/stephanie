@@ -3,8 +3,8 @@
   height: 100vh;
   background: white;
   background-size: cover;
-  text-align: center;
   overflow: hidden;
+  text-align: center;
 
   p, h1, button {
     color: black;
@@ -13,21 +13,27 @@
   }
 
   img {
-    margin-top: 2rem;
     width: 60vw;
-    max-width: 500px;
+    max-width: 400px;
     min-width: 200px;
     border-radius: 50%;
     filter: drop-shadow(13px 13px 20px grey);
   }
 
   h1 {
+    text-align: center;
+    font-size: 1.5em;
     font-weight: 700;
-    padding-top: 1rem;
+    padding-top: .75rem;
   }
 
   p {
-    margin: 0 3rem;
+    text-align: left;
+    font-size: .85em;
+    max-width: 650px;
+    margin: 0 1.5rem;
+    border-left: 1px solid black;
+    padding-left: .5rem;
   }
 
   button {
@@ -42,5 +48,31 @@
   button:hover {
     background: rgb(96, 95, 95);
     color: white;
+  }
+
+  @media (min-width: 360px) {
+    h1 {
+      font-size: 2em;
+    }
+
+    p {
+      margin: 0 2.75rem;
+      font-size: 1.1em;
+
+    }
+
+    a {
+      font-size: 1.1em;
+    }
+  }
+
+  @media (min-width: 720px) {
+    img {
+      margin-top: 2rem;
+    }
+    p {
+      margin: 0 auto;
+      font-size: 1.25em;
+    }
   }
 }

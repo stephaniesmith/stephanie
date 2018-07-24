@@ -14,11 +14,14 @@
   }
 
   h1 {
+    font-size: 1.5em;
     font-weight: 700;
     padding-top: 50vh;
+    margin-bottom: .75rem;
   }
 
   a {
+    font-size: 1em;
     padding: 0 .4rem;
     font-weight: 300;
   }
@@ -35,5 +38,15 @@
   button:hover {
     background: white;
     color: red;
+  }
+
+  @media (min-width: 360px) {
+    h1 {
+      font-size: 2em;
+    }
+
+    a {
+      font-size: 1.1em;
+    }
   }
 }
