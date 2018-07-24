@@ -57,6 +57,15 @@ module.exports = {
           loader: 'url-loader',
           options: { limit: 5000 }
         }
+      },
+      {
+        test: /\.(pdf|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: { limit: 5000 }
+          }
+        ]
       }
     ]
   }
