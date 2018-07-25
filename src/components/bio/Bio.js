@@ -20,7 +20,7 @@ export default class Bio extends Component {
         <button onClick={() => this.handleClass('')}>home</button>
         <img src={stephanie}/>
         <h1>A little about me.</h1>
-        <p>As a Full Stack-JavaScript developer with a background in industrial design, I enjoy collaborating, learning new skills, and analyzing code to find solutions. Currently I'm writing JavaScript using a MERN stack and styling it up with SCSS, but excited to learn new languages, frameworks, and libraries! I do both 2d and 3d design work, predominantly using the Adobe Suite and SolidWorks. Outside of tech, I'm an avid hiker and creative, you can find me in the mountains making videos about the PNW.</p>
+        <p>As a Full Stack-JavaScript developer with a background in industrial design, I enjoy collaborating, learning new skills, and analyzing code to find solutions. Outside of tech, I'm an avid hiker and creative, you can find me in the mountains making videos about the PNW.</p>
       </div>
     );
   }
