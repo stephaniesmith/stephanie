@@ -19,7 +19,7 @@ export default class Home extends Component {
 
     return (
       <div className={styles.home}>
-        <h1>Hello, I am Stephanie.</h1>
+        <h1>Hello, I'm Stephanie.</h1>
         <a href="https://github.com/stephaniesmith">GitHub</a>
         <a href="https://www.linkedin.com/in/stephanie-lauren-smith/">LinkedIn</a>
         <a href={resume}>Résumé</a>
